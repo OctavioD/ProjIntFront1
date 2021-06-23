@@ -2,19 +2,24 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-#superior1{
+#superior{
     background-color:rgb(32, 28, 28);
     color: rgb(255, 255, 255);
 }
 
-#superior1 span{
-    margin-left: 8%;
+#superior span{
     text-align: left;
 }
 
-#superior1 nav{
+#superior nav{
     text-align: right;
-    margin-right: 4%;
+    margin-right: 2em;
+    display: inline;
+}
+
+#superior nav span{
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 #inferior{
@@ -39,6 +44,14 @@ body{
 #inferior nav{
     display: inline;
     text-align: right;
+    position: absolute;
+    right: 0em;
+    margin-right: 2em;
+}
+
+#inferior nav span{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
 }
 
 #seccion-bienvenida{
