@@ -1,3 +1,7 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 #superior1{
     background-color:rgb(32, 28, 28);
     color: rgb(255, 255, 255);
@@ -15,6 +19,26 @@
 
 #inferior{
     background-color: rgb(252, 133, 36);
+    padding: 1em;
+}
+
+#inferior h3{
+    margin: 0%;
+    font-weight: bold;
+    display: inline;
+}
+
+#inferior h3.negro{
+    color: black;
+}
+
+#inferior h3.blanco{
+    color: white;
+}
+
+#inferior nav{
+    display: inline;
+    text-align: right;
 }
 
 #seccion-bienvenida{
