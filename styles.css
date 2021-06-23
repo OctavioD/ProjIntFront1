@@ -1,0 +1,28 @@
+#superior1{
+    background-color:rgb(32, 28, 28);
+    color: rgb(255, 255, 255);
+}
+
+#superior1 span{
+    margin-left: 8%;
+    text-align: left;
+}
+
+#superior1 nav{
+    text-align: right;
+    margin-right: 4%;
+}
+
+#inferior{
+    background-color: rgb(252, 133, 36);
+}
+
+#seccion-bienvenida{
+    background-image: url(/ProjIntFront1/img/imagenHeader1.png);
+    background-size: cover;
+}
+
+h1{
+    text-align: right;
+    margin-right: 5%;
+}
