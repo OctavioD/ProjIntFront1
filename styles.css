@@ -52,13 +52,13 @@ h1{
     text-align: right;
     margin-right: 5%;
 }
-footer.suscripcion{
+footer section.suscripcion{
     background-color: rgb(252, 133, 36);
 }
-footer.contactos{
+footer section.contactos{
     display: inline-block;
 }
-footer.derechos{
+footer section.derechos{
     background-color: black;
     color: white;
     font-size: 12px;
