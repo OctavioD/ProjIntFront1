@@ -5,6 +5,9 @@ body{
 h3{
     display: inline;
 }
+p{
+    margin: 0px;
+}
 #superior{
     background-color:rgb(32, 28, 28);
     color: rgb(255, 255, 255);
@@ -22,7 +25,7 @@ h3{
     margin-right: 1em;
 }
 #inferior{
-    background-color: rgb(252, 133, 36);
+    background-color: #F0A83E;
     padding: 1em;
 }
 #inferior h3{
@@ -56,7 +59,7 @@ h1{
     margin-right: 5%;
 }
 footer section.suscripcion{
-    background-color: rgb(252, 133, 36);
+    background-color: #F0A83E;
     display: flex;
     justify-content: space-between;
 }
@@ -70,6 +73,7 @@ footer section.suscripcion div.form-suscripcion{
 footer section.contactos{
     display: flex;
     justify-content: space-between;
+    background-color: #3C2313;
 }
 footer section.contactos article.contactos1{
     display: flex;
@@ -83,7 +87,7 @@ footer section.contactos article.contactos2{
     justify-content: center;
 }
 footer section.derechos{
-    background-color: black;
+    background-color: #222222;
     color: white;
     font-size: 12px;
     font-weight: bold;
