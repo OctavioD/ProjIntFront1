@@ -54,9 +54,27 @@ h1{
 }
 footer section.suscripcion{
     background-color: rgb(252, 133, 36);
+    display: flex;
+    justify-content: space-between;
+}
+footer section.suscripcion div.aviso-suscripcion{
+    font-size: 18px;
+    color: white;
+}
+footer section.suscripcion div.form-suscripcion{
+    font-size: 14px;
 }
 footer section.contactos{
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+}
+footer section.contactos div.contactos1{
+    display: flex;
+    align-content: space-around;
+}
+footer section.contactos div.contactos2{
+    display: flex;
+    align-content: center;
 }
 footer section.derechos{
     background-color: black;
