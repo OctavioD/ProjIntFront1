@@ -64,8 +64,16 @@ p{
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
+    height: 46.5em;
 }
-#titulo-principal{
+#seccion-bienvenida div{
+    height: 15em;
+    display: flex;
+    width: 40em;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#seccion-bienvenida #titulo-principal{
     text-align: right;
     margin-right: 5%;
     background-color: white;
