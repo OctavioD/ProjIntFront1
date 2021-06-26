@@ -35,17 +35,16 @@ p{
 #inferior{
     background-color: #F0A83E;
     padding: 1em;
+    display: flex;
+    color: white;
 }
 #inferior h3{
     margin: 0%;
     font-weight: bolder;
     display: inline;
 }
-#inferior h3.negro{
+#inferior h3 span.negro{
     color: black;
-}
-#inferior h3.blanco{
-    color: white;
 }
 #inferior nav{
     display: inline;
@@ -61,10 +60,16 @@ p{
 #seccion-bienvenida{
     background-image: url(/ProjIntFront1/img/imagenHeader1.png);
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
 }
-h1{
+#titulo-principal{
     text-align: right;
     margin-right: 5%;
+    background-color: white;
+    font-size: 20px;
 }
 footer section.suscripcion{
     background-color: #F0A83E;
