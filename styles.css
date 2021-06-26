@@ -74,7 +74,7 @@ p{
     justify-content: space-around;
     align-items: center;
 }
-#seccion-bienvenida #titulo-principal{
+#seccion-bienvenida #titulo-bienvenida{
     background-color: white;
     font-size: 39px;
     border-radius: 0.2em;
@@ -103,6 +103,20 @@ p{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+}
+#seccion-productos #titulo-principal{
+    font-size: 3.4em;
+    margin-bottom: 2vw;
+    font-weight: 900;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+#seccion-productos article .imagenes-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 footer section.suscripcion{
     background-color: #F0A83E;
